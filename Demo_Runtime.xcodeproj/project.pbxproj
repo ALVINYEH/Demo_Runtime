@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153C3F0120C9068E006D9BD2 /* NSObject+Block_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 153C3F0020C9068E006D9BD2 /* NSObject+Block_KVO.m */; };
+		153C3F0420C90D2D006D9BD2 /* GloryListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 153C3F0320C90D2D006D9BD2 /* GloryListModel.m */; };
+		153C3F0820C91107006D9BD2 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 153C3F0720C91106006D9BD2 /* statuses.plist */; };
+		153C3F0B20C9147D006D9BD2 /* EnumDictOneLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 153C3F0A20C9147D006D9BD2 /* EnumDictOneLevel.m */; };
 		155BFCA120C6372400B58C53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 155BFCA020C6372400B58C53 /* AppDelegate.m */; };
 		155BFCA420C6372400B58C53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 155BFCA320C6372400B58C53 /* ViewController.m */; };
 		155BFCA720C6372500B58C53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155BFCA520C6372500B58C53 /* Main.storyboard */; };
@@ -19,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		153C3EFF20C9068E006D9BD2 /* NSObject+Block_KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Block_KVO.h"; sourceTree = "<group>"; };
+		153C3F0020C9068E006D9BD2 /* NSObject+Block_KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Block_KVO.m"; sourceTree = "<group>"; };
+		153C3F0220C90D2D006D9BD2 /* GloryListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GloryListModel.h; sourceTree = "<group>"; };
+		153C3F0320C90D2D006D9BD2 /* GloryListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GloryListModel.m; sourceTree = "<group>"; };
+		153C3F0720C91106006D9BD2 /* statuses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statuses.plist; sourceTree = "<group>"; };
+		153C3F0920C9147D006D9BD2 /* EnumDictOneLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumDictOneLevel.h; sourceTree = "<group>"; };
+		153C3F0A20C9147D006D9BD2 /* EnumDictOneLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumDictOneLevel.m; sourceTree = "<group>"; };
 		155BFC9C20C6372400B58C53 /* Demo_Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		155BFC9F20C6372400B58C53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		155BFCA020C6372400B58C53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,21 +78,28 @@
 		155BFC9E20C6372400B58C53 /* Demo_Runtime */ = {
 			isa = PBXGroup;
 			children = (
+				155BFC9F20C6372400B58C53 /* AppDelegate.h */,
+				155BFCA020C6372400B58C53 /* AppDelegate.m */,
+				155BFCA220C6372400B58C53 /* ViewController.h */,
+				155BFCA320C6372400B58C53 /* ViewController.m */,
 				155BFCBE20C6716800B58C53 /* NSArray+CrashHandle.h */,
 				155BFCC020C6716800B58C53 /* NSArray+CrashHandle.m */,
 				155BFCC120C6716800B58C53 /* UIViewController+Logging.h */,
 				155BFCBF20C6716800B58C53 /* UIViewController+Logging.m */,
 				155BFCC420C673EA00B58C53 /* UIButton+Limit.h */,
 				155BFCC520C673EA00B58C53 /* UIButton+Limit.m */,
-				155BFC9F20C6372400B58C53 /* AppDelegate.h */,
-				155BFCA020C6372400B58C53 /* AppDelegate.m */,
-				155BFCA220C6372400B58C53 /* ViewController.h */,
-				155BFCA320C6372400B58C53 /* ViewController.m */,
+				153C3EFF20C9068E006D9BD2 /* NSObject+Block_KVO.h */,
+				153C3F0020C9068E006D9BD2 /* NSObject+Block_KVO.m */,
+				153C3F0220C90D2D006D9BD2 /* GloryListModel.h */,
+				153C3F0320C90D2D006D9BD2 /* GloryListModel.m */,
+				153C3F0920C9147D006D9BD2 /* EnumDictOneLevel.h */,
+				153C3F0A20C9147D006D9BD2 /* EnumDictOneLevel.m */,
 				155BFCA520C6372500B58C53 /* Main.storyboard */,
 				155BFCA820C6372600B58C53 /* Assets.xcassets */,
 				155BFCAA20C6372600B58C53 /* LaunchScreen.storyboard */,
-				155BFCAD20C6372600B58C53 /* Info.plist */,
 				155BFCAE20C6372600B58C53 /* main.m */,
+				155BFCAD20C6372600B58C53 /* Info.plist */,
+				153C3F0720C91106006D9BD2 /* statuses.plist */,
 			);
 			path = Demo_Runtime;
 			sourceTree = "<group>";
@@ -145,6 +163,7 @@
 			files = (
 				155BFCAC20C6372600B58C53 /* LaunchScreen.storyboard in Resources */,
 				155BFCA920C6372600B58C53 /* Assets.xcassets in Resources */,
+				153C3F0820C91107006D9BD2 /* statuses.plist in Resources */,
 				155BFCA720C6372500B58C53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -157,9 +176,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				155BFCC220C6716800B58C53 /* UIViewController+Logging.m in Sources */,
+				153C3F0120C9068E006D9BD2 /* NSObject+Block_KVO.m in Sources */,
 				155BFCA420C6372400B58C53 /* ViewController.m in Sources */,
 				155BFCAF20C6372600B58C53 /* main.m in Sources */,
+				153C3F0B20C9147D006D9BD2 /* EnumDictOneLevel.m in Sources */,
 				155BFCA120C6372400B58C53 /* AppDelegate.m in Sources */,
+				153C3F0420C90D2D006D9BD2 /* GloryListModel.m in Sources */,
 				155BFCC320C6716800B58C53 /* NSArray+CrashHandle.m in Sources */,
 				155BFCC620C673EA00B58C53 /* UIButton+Limit.m in Sources */,
 			);
